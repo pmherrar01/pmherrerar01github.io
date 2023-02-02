@@ -1,0 +1,32 @@
+header{
+    width: 99vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 15px;
+}
+.portada{
+    width: 40vw;
+    height: auto;
+}
+.menu {
+    overflow: hidden;
+    background-color:saddlebrown; 
+  }
+  .submenu {
+    float: left;
+    overflow: hidden;
+    background-color: saddlebrown;
+  }
+  .inicio, .colecciones{
+    color: beige;
+    background-color: saddlebrown;
+    float: left;
+  }
+.inicio a{
+        float: left;
+        font-size: 16px;
+        color: beige;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}

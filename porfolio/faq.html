@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./../ccs/estilo.css">
+</head>
+<body background="./../img/faq.png">
+    <div class="navbar">
+        <a href="./../index.html">Inicio</a>
+        <div class="subnav">
+          <a href="./../porfolio/iniciosesion.html">Inicia sesión</a>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Colecciones <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="./fw23.html">FW23</a>
+            <a  href="./cluubdelos2000.html">Club de los 2000</a>
+            <a href="./gotadesanvalentin.html">Gota de san valentin</a>
+          </div>
+        </div> 
+        <div class="subnav">
+          <button class="subnavbtn">Sobre nosotros <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="./../porfolio/contacto.html">Como contactarnos</a>
+            <a href="https://instagram.com/herrorstreewear?igshid=YmMyMTA2M2Y=">Instagram</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Preguntas frecuentes <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="./../porfolio/faq.html">FAQ</a>
+            <a href="./../porfolio/manuales.html">Manuales</a>
+            <a  href="./../porfolio/incidencias.html">Incidencias</a>
+          </div>
+        </div> 
+      </div>
+    <p class="contactarnos"><strong>Preguntas frecuentes</strong></p>
+    <main class="main2">
+        <button type="button" class="collapsible">¿Cuánto tiempo tardará en llegarme el pedido mas o menos ?</button>
+        <div class="content">
+            <p>El tiempo estimado de entrega es de aproximadamente de 2 a 3 días laborables.</p>
+        </div>
+        </div>
+        <button type="button" class="collapsible">¿Los gastos de envío son gratuitos?</button>
+        <div class="content">
+            <p>Los gastos de envíos serán gratuitos a partir de una compra de mas de 24.99€.</p>
+        </div>
+        <button type="button" class="collapsible">¿Puedo ver el seguimiento del pedido?</button>
+        <div class="content">
+            <p>Podrás seguir el recorrido de tu pedido haciendo clic en el link que se te proporciona a la hora de haber realizado la compra.</p>
+        </div>
+        </div>
+            <button type="button" class="collapsible">¿Si tengo alguna duda donde puedo resolver mi duda?</button>
+        <div class="content">
+            <p>Puedes contactar con nosotros mediante nuestro correo electrónico que es: herror@gmail.com o bien puedes dejarnos tu duda <a href="./contacto.html">AQUI</a></p>
+        </div>
+        <button type="button" class="collapsible">¿Se pueden devolver los pedidos?</button>
+        <div class="content">
+            <p>Si se pueden devolver los pedidos pero o bien en una de nuestras tiendas físicas o enviando el pedido por correo a esta dirección: C/ Plaza de los Conquistadores nº 7987 06700 Villanueva de la Serena.</p>
+        </div>
+        <button type="button" class="collapsible">¿Cuáles son las medidas de las tallas?</button>
+        <div class="content">
+            <p>Puedes ver las guía de tallas  AQUI</p>
+        </div>
+        <button type="button" class="collapsible">¿Cuál es el horario de las tiendas físicas?</button>
+        <div class="content">
+        <p>El horario de las tiendas físicas es de lunes a viernes por las mañanas de 10:00 a 14:00 y por las tardes de 17:30 a 20:30.</p>
+        </div>
+        <button type="button" class="collapsible">¿De donde son los tejidos de las prendas?</button>
+        <div class="content">
+        <p>Todos los tejidos y materiales empleados en todos nuestros productos son de España.</p>
+        </div>
+        <button type="button" class="collapsible">¿Se  puede pagar a contra reembolso?</button>
+        <div class="content">
+            <p>No se puede pagar mediante tarjeta de crédito, paypal, o por bizum.</p>
+        </div>
+    </main>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<footer>
+  <p class="pie">Pagina web de la marca española de ropa HERROR aquí podrás consultar todas las dudas que necesites a parte de poder hacer tus pedidos de la ropa que mas te guste.
+    También nos encontramos en tiendas físicas como por ejemplo en The Hype Room (Villanueva de la Serena), Mini shop (Madrid) estas entre muchas.</p>
+</footer>
+</body>
+</html>

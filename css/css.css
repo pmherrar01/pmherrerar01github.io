@@ -1,0 +1,526 @@
+body {
+    margin: 1%;
+    background-color: rgb(214, 199, 180);
+    font-size: 16px;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: saddlebrown;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 0.8em 1em;
+    text-decoration: none;
+  }  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 1em;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.8em 1em;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: saddlebrown;  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: saddlebrown;
+    width: 100%;
+    z-index: 1;
+    float: left;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: beige;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  .portada{
+    width: 100%;
+    height: auto;
+  }
+footer{
+  font-size: 1.2em;
+  text-align: left;
+}
+.imgportada6{
+  width: 80%;
+  height: 50%;
+}
+.imgportada7{
+  width: 30%;
+  float: left;
+}
+.imgportada{
+  width: 50%;
+  height: 50%;
+}
+
+.imgportadacamiseta{
+  width: 24.7%;
+  height: 20em;
+}
+.imgportadasudadera{
+  width: 24.7%;
+  height: 20em;
+}
+.iniciosesion{
+  font-size: 2.1em;
+  text-align: center;
+  background-color: saddlebrown;
+  color: beige;
+}
+.contactarnos{
+  text-align: center;
+  font-size: 3.125em;
+  background-color: beige;
+  color: saddlebrown;
+  border-style: solid;
+  border-radius: 30px;
+}
+ul{
+  font-size: 1.25em;
+}
+.metodos{
+  font-size: 1.8em;
+}
+main{
+  color: beige;
+}
+section{
+  text-align: right;
+}
+.imagencontacto{
+  width: 51%;
+  height: auto;
+}
+.collapsible {
+  background-color: beige;
+  color: saddlebrown;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+}
+
+.active, .collapsible:hover {
+  background-color: saddlebrown;
+  color: beige;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(196, 118, 62);
+  color: beige;
+}
+.main2{
+  width: 50%;
+}
+.main3{
+  width: 45%;
+  float: left;
+  background-color: beige;
+  color: saddlebrown;
+}
+.main4{
+  width: 45%;
+  float: right;
+  background-color: beige;
+  color: saddlebrown;
+}
+.titulopolitica{
+  font-size: 2.5em;
+  text-align: center;
+}
+.privacidad{
+  font-size: 1.175em;
+}
+.envios{
+  font-size: 1.375em;
+}
+.incidencias{
+  font-size: 1.25em;
+}
+.main5{
+  width: 45%;
+  float: left;
+  background-color: beige;
+  color: saddlebrown;
+}
+.imagenesrotando {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 0.5%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: saddlebrown;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.main12{
+  float: left;
+  width: 50%;
+  margin: 1%;
+}
+
+.textodescripcion2{
+  text-align: center;
+  font-size: 1em;
+}
+.textodescripcion3{
+  text-align: center;
+  font-size: 2.2em;
+}
+.textodescripcion4{
+  text-align: center;
+  font-size: 2.2em;
+}
+.maingorra2{
+  float: left;
+  font-size: 2em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 35%;
+  height: 20%;
+  margin: 5%;
+  text-align: center;
+  border-radius: 10%;
+  border-style: solid;
+}
+.main25{
+  float: left;
+  font-size: 1em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 30%;
+  height: 40%;
+  margin: 4%;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+}
+.main26{
+  float: left;
+  font-size: 1em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 35%;
+  height: 35em;
+  margin: 4%;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+}
+.main27{
+  float: left;
+  font-size: 1.2em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 35%;
+  height: 35em;
+  margin: 4%;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+}
+.main28{
+  float: left;
+  font-size: 1.4em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 36%;
+  height: 33em;
+  margin: 1%;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+}
+.main21{
+  float: left;
+  font-size: 1.1em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 30%;
+  height: 38em;
+  margin: 4%;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+}
+.maintallas20{
+  float: left;
+  width: 100%;
+}
+.camisetalanzamiento{
+  float: left;
+  width: 100%;
+  margin: 1%;
+}
+.tablacamiportada{
+  font-size: 2.5em;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (min-width: 916px) {
+.prendas{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 414px) {
+body{
+  font-size: 16px;
+}
+  .text {font-size: 0.68em}
+}
+.main11{
+  float: left;
+  width: 95%;
+  margin: 1%;
+}
+.imgportada3{
+  width: 63%;
+  height: 50%;
+}
+.imgportada4{
+  width: 75%;
+  float: left;
+}
+.camisetalanzamiento{
+  width: 100%;
+  margin: 1%;
+}
+.main20{
+  float: left;
+  font-size: 1.3em;
+  width: 90%;
+}
+.pie{
+  color: beige;
+}
+.pie2{
+  font-size: em;
+  color: beige;
+  float: left;
+  background-color: saddlebrown;
+}
+.main6{
+  margin: 4%;
+  float: left;
+  width: 100%;
+}
+.main7{
+  float: left;
+  font-size: 150%;
+  background-color: beige;
+  color: saddlebrown;
+  width: 50%;
+  height: 40%;
+  margin: 4%;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+}
+table, tr, th{
+  border: 3px solid saddlebrown;
+  background-color: beige;
+  color: black;
+}
+.titulotabla{
+  font-size: 1.25em;
+  color: saddlebrown;
+}
+.maintallas{
+  float: left;
+  width: 15%;
+  font-size: 1.56em;
+  margin: 1%;
+}
+.maintallas2{
+  float: left;
+  width: 25%;
+}
+.camisetalanzamiento{
+    float: left;
+  width: 25%;
+}
+.tablacamiportada{
+  margin: 20%;
+  font-size: 2.5em;
+}
+.maingorra{
+  float: left;
+  font-size: 0.1em;
+  background-color: beige;
+  color: saddlebrown;
+  width: 40%;
+  height: 20%;
+  margin: 5%;
+  text-align: center;
+}
+.textodescripciongorra{
+  text-align: left;
+  font-size: 0.8em;
+}
+.textodescripcion{
+  text-align: center;
+  font-size: 1.875em;
+}
+.mainpie{
+  width: 100%;
+}
+.maps{
+  width: 45%;
+  height: 27.8em;
+}
+.imgportada2{
+  width: 100%;
+  height: 50em;
+}
+@media screen and (max-width: 916px) {
+.imgportada {
+  width: 49%;
+}
+.navbar a {
+  font-size: 1.2em;
+}
+.subnav .subnavbtn {
+  font-size: 1.2em;
+}
+.pie{
+  color: beige;
+  margin-top: 45%;
+}
+.imgportadacamiseta{
+  width: 49%;
+  height: 20em;
+}
+.imgportadasudadera{
+  width: 49%;
+  height: 20em;
+}
+footer{
+  font-size: 1.5em;
+  text-align: left;
+}
+.portada{
+  width: 100%;
+  height: auto;
+}
+.maps{
+  width: 100%;
+  height: 30em;
+}
+.imagencontacto{
+  width: 100%;
+  height: auto;
+}
+.main2{
+  width: 70%;
+}
+.main3{
+  width: 100%;
+  margin: 0.1em;
+}
+.main4{
+  width: 100%;
+  margin: 0.1em;
+}
+.main5{
+  width: 100%;
+  float: left; 
+}
+.main6{
+  margin: 5%;
+  float: left;
+  width: 100%;
+}
+.main7{
+  float: left;
+  font-size: 1.5em;
+  width: 90%;
+  height: 40%;
+  margin: 5%;
+  text-align: center;
+}
+.imgportada2{
+  width: 70%;
+  height: 70%;
+}
+.textodescripcion{
+  text-align: center;
+  font-size: 80%;
+}
+.camisetalanzamiento{
+  float: left;
+  width: 25%;
+}
+.maintallas2{
+  float: left;
+  width: 100%;
+  margin: 10%;
+}
+.tablacamiportada{
+  margin: 1%;
+  font-size: 1.87em;
+}
+.maingorra{
+  float: left;
+  font-size: 1.25em;
+  width: 90%;
+  height: 40%;
+  margin: 5%;
+  text-align: center;
+}
+.pie2{
+  font-size: 1.25em;
+  width: 95%;
+  color: beige;
+  float: left;
+  background-color: saddlebrown;
+}
+}
